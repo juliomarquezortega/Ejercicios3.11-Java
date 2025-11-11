@@ -14,15 +14,15 @@ public class Ejercicio2 {
 		int[] []  matriz;
 		matriz = new int [filas] [columnas];
 		
-		for(int i = 0;i<matriz.length;i++) {
-			for(int a = 0;a<matriz.length;a++) {
-				matriz[i][a] = i0*a;
+		for(int i = 0;i<filas;i++) {
+			for(int a = 0;a<columnas;a++) {
+				matriz[i][a] =  (i + 1) * (a +1);
 				
 				
 			}
 		}
-		for (int i = 0;i<matriz.length;i++) {
-			for (int a = 0;a<matriz.length;a++) {
+		for (int i = 0;i<filas;i++) {
+			for (int a = 0;a<columnas;a++) {
 				System.out.print(matriz[i][a] + "  ");
 			}
 			System.out.println();
